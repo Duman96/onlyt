@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Only-Tech</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
   </head>
   <body>
 
@@ -15,7 +16,7 @@
 
       </div>
 
-    </nav>    
+    </nav>
 
 <?php
   include_once 'footer.php'

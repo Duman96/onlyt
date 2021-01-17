@@ -7,8 +7,8 @@
   </head>
   <body>
 
-    <nav>
-      <div class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
         <ul>
           <li> <a href="index.php">Home</a> </li>
           <li> <a href="login.php">Login</a> </li>

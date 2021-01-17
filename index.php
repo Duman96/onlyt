@@ -8,7 +8,7 @@
   <body>
 
     <nav>
-      <div class="wrapper">
+      <div class="navbar navbar-dark bg-dark">
         <ul>
           <li> <a href="index.php">Home</a> </li>
           <li> <a href="login.php">Login</a> </li>

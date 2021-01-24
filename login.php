@@ -3,7 +3,7 @@
  ?>
 
   <section class="text-center">
-      <form class="form-signin" action="/includes/login.inc.php" method="post">
+      <form class="form-signin" action="/onlyt/includes/login.inc.php" method="post">
         <img class="mb-4" src="/onlyt/assets/img/ot.png" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
         <label for="inputEmail" class="sr-only">Login</label>

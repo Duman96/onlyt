@@ -19,6 +19,19 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Sign In</button>
       </form>
 
+      <?php
+        if ( isset($_GET["error"]) ) {
+
+          if( $_GET["error"] === "none"){
+            echo "<p>Login successful!</p>";
+          }
+          if( $_GET["error"] === "wronglogin"){
+            echo "<p>Login or password incorrect!</p>";
+          }
+
+        }
+      ?>
+
   </section>
 
 

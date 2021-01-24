@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -28,7 +32,7 @@
               Dropdown
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Hash</a>
               <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
@@ -40,9 +44,15 @@
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-
-        <a class="nav-link" href="login.php">Sign In<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">Sign Up<span class="sr-only">(current)</span></a>
+        <?php
+          if ( isset($_SESSION["useruid"]) ) {
+            echo "<a class='nav-link' href='#'>Profile<span class='sr-only'>(current)</span></a>";
+            echo "<a class='nav-link' href='#'>Log out<span class='sr-only'>(current)</span></a>";
+          } else {
+            echo "<a class='nav-link' href='login.php'>Sign In<span class='sr-only'>(current)</span></a>";
+            echo "<a class='nav-link' href='#'>Sign Up<span class='sr-only'>(current)</span></a>";
+          }
+        ?>
 
       </div>
     </nav>

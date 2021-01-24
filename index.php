@@ -9,10 +9,8 @@
 
     <nav class="navbar navbar-dark bg-dark">
       <div class="container">
-        <ul>
-          <li> <a href="index.php">Home</a> </li>
-          <li> <a href="login.php">Login</a> </li>
-        </ul>
+          <a href="index.php">Home</a>
+          <a href="login.php">Login</a>
 
       </div>
 

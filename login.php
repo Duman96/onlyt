@@ -7,7 +7,7 @@
         <img class="mb-4" src="/onlyt/assets/img/ot.png" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
         <label for="inputEmail" class="sr-only">Login</label>
-        <input type="text" name="name" id="inputEmail" class="form-control" placeholder="Login..." required autofocus>
+        <input type="text" name="uid" id="inputEmail" class="form-control" placeholder="Login..." required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" name="pwd" id="inputPassword" class="form-control" placeholder="Password..." required>
         <div class="checkbox mb-3">

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Only-Tech</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
   </head>
   <body>
 
